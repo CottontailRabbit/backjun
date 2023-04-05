@@ -19,6 +19,6 @@ int main()
     //v.begin(), v.end()출력
 
 
-    cout <<v[0]<<" " <<v[n-1]<< endl;
+    cout <<v.front()<<" " <<v.back()<< endl;
     return 0;
 }
